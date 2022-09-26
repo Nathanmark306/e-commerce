@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Nathanmark306/e-commerce.git"
   },
+
+  "keywords": [],
+
   "author": "",
   "license": "ISC",
   "bugs": {
