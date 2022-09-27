@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "npm run build --prefix client && npm run server",
+    "ciient": "npm run start --prefix client",
+    "server": "cd server/src && node server.js ",
+    "watch": "nodemon server.js --prefix server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nathanmark306/e-commerce.git"
   },
-
   "keywords": [],
-
   "author": "",
   "license": "ISC",
   "bugs": {
